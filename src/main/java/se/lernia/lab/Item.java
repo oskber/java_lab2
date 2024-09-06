@@ -26,7 +26,7 @@ public abstract class Item {
         this.positionY = positionY;
     }
 
-    public void Move(int positionX, int positionY) {
+    public void move(int positionX, int positionY) {
         this.positionX = positionX;
         this.positionY = positionY;
     }

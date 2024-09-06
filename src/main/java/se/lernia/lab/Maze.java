@@ -94,9 +94,9 @@ public class Maze {
                 if (player != null && player.getPositionY() == i && player.getPositionX() == j) {
                     System.out.print("P ");
                 } else if (maze[i][j] == 1) {
-                    System.out.print("1 ");
+                    System.out.print("# ");
                 } else {
-                    System.out.print("0 ");
+                    System.out.print(". ");
                 }
             }
             System.out.println();
