@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4d2d277-9271-4ae2-8969-7e3aa6199a8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Oskar/OneDrive/Skrivbord/Oskar/java/labb/Laboration1.pdf",
+    "last_opened_file_path": "C:/Users/Oskar/IdeaProjects/lab2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,7 +64,7 @@
   <component name="RunManager" selected="Application.Game">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se.lernia.lab.Game" />
-      <module name="lab_2" />
+      <module name="lab2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="se.lernia.lab.*" />
@@ -78,7 +77,7 @@
     </configuration>
     <configuration name="MazeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se.lernia.lab.MazeGame" />
-      <module name="lab_2" />
+      <module name="lab2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="se.lernia.lab.*" />
@@ -115,11 +114,19 @@
       <workItem from="1725007818974" duration="41000" />
       <workItem from="1725007921898" duration="9787000" />
       <workItem from="1725260338179" duration="629000" />
-      <workItem from="1725260976847" duration="17448000" />
+      <workItem from="1725260976847" duration="25561000" />
+      <workItem from="1725451027808" duration="60000" />
+      <workItem from="1725451155341" duration="448000" />
+      <workItem from="1725454630725" duration="2414000" />
+      <workItem from="1725519801799" duration="8477000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

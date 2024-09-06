@@ -13,11 +13,12 @@ public class Maze {
     public Maze(int rows, int cols) {
         this.maze = new int[rows][cols];
         this.items = new ArrayList<>();
-        initializeMaze();
     }
+
     public Player getPlayer() {
         return player;
     }
+
     public void setPlayer(Player player) {
         this.player = player;
     }
@@ -29,6 +30,7 @@ public class Maze {
     public void removeItem(Item item) {
         items.remove(item);
     }
+
     public List<Item> getItems() {
         return items;
     }
@@ -41,6 +43,7 @@ public class Maze {
         }
         return null;
     }
+
 
     public void initializeMaze() {
         for (int[] row : maze) {
@@ -55,7 +58,22 @@ public class Maze {
             maze[0][j] = 1;
             maze[maze.length - 1][j] = 1;
         }
-        //maze[5][5] = 1;
+        setWall(2, 2);
+        setWall(2, 3);
+        setWall(3, 3);
+        setWall(6, 2);
+        setWall(5, 2);
+        setWall(5, 6);
+        setWall(5, 5);
+        setWall(5, 4);
+
+    }
+
+
+    public void setWall(int row, int col) {
+        if (row >= 0 && row < maze.length && col >= 0 && col < maze[0].length) {
+            maze[row][col] = 1;
+        }
     }
 
     public int getRows() {
@@ -73,7 +91,7 @@ public class Maze {
     public void printMaze() {
         for (int i = 0; i < maze.length; i++) {
             for (int j = 0; j < maze[0].length; j++) {
-                if (player != null && player.getPositionX() == j && player.getPositionY() == i) {
+                if (player != null && player.getPositionY() == i && player.getPositionX() == j) {
                     System.out.print("P ");
                 } else if (maze[i][j] == 1) {
                     System.out.print("1 ");

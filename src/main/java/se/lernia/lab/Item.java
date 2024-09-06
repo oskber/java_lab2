@@ -10,7 +10,6 @@ public abstract class Item {
     }
 
 
-
     public int getPositionX() {
         return positionX;
     }
@@ -38,40 +37,64 @@ public abstract class Item {
     }
 }
 
-class Monster extends Item implements Movable {
-    private int health;
-    private int strength;
+class Monster extends Item {
+    private final int strength;
 
     public Monster(int positionX, int positionY, int health, int strength) {
         super(positionX, positionY);
+        this.strength = strength;
     }
 
-    @Override
-    public void move(int moveX, int moveY) {
-
+    public void attack(Player player) {
+        player.decreaseHealth(strength);
+        System.out.println("The monster attacked you! Your health is now " + player.getHealth() + ".");
     }
 }
 
 class Sword extends Item {
+    private final int damage;
 
     public Sword(int positionX, int positionY, int damage) {
         super(positionX, positionY);
-
+        this.damage = damage;
+    }
+    public int getDamage() {
+        return damage;
+    }
+    public void killMonster(Monster monster, Maze maze) {
+        maze.removeItem(monster);
+        System.out.println("A monster was in your path, and you killed it!");
     }
 }
 
 class Shield extends Item {
-    private int health;
+    private final int health;
 
     public Shield(int positionX, int positionY, int health) {
         super(positionX, positionY);
+        this.health = health;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+    public void protectPlayer(Player player) {
+        player.increaseHealth(health);
+        System.out.println("You picked up a shield and increased your health to " + player.getHealth() + ".");
     }
 }
 
 class Treasure extends Item {
+    private final int value;
 
     public Treasure(int positionX, int positionY, int value) {
         super(positionX, positionY);
+        this.value = value;
     }
+
+    public int getValue() {
+        return value;
+    }
+
 }
 
