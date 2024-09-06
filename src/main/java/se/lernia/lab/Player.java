@@ -108,7 +108,7 @@ public class Player implements Movable {
             System.out.println("You have been killed by the monster...");
             Game.restartGame();
         } else {
-            System.out.println("Your health is now " + this.health);
+            System.out.println("Your health is now " + this.health + ",");
         }
     }
 

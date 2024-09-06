@@ -47,7 +47,7 @@ class Monster extends Item {
 
     public void attack(Player player) {
         player.decreaseHealth(strength);
-        System.out.println("The monster attacked you! Your health is now " + player.getHealth() + ".");
+        System.out.println("A monster attacked you!");
     }
 }
 
