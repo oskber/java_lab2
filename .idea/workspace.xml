@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4d2d277-9271-4ae2-8969-7e3aa6199a8f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lernia/lab/Player.java" afterDir="false" />
-    </list>
+    <list default="true" id="c4d2d277-9271-4ae2-8969-7e3aa6199a8f" name="Changes" comment="Maze game is playable." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +20,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/oskber/java_lab2.git",
+    "accountId": "c8e18cab-1a13-4bbe-8612-a78a1cd84aa0"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -118,12 +119,36 @@
       <workItem from="1725451027808" duration="60000" />
       <workItem from="1725451155341" duration="448000" />
       <workItem from="1725454630725" duration="2414000" />
-      <workItem from="1725519801799" duration="8477000" />
+      <workItem from="1725519801799" duration="8872000" />
     </task>
+    <task id="LOCAL-00001" summary="Maze game is playable.">
+      <option name="closed" value="true" />
+      <created>1725614019270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725614019270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Maze game is playable." />
+    <option name="LAST_COMMIT_MESSAGE" value="Maze game is playable." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
